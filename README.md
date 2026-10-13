@@ -10,9 +10,9 @@ This repository contains the replication package for an ns-3 simulation assignme
 *   **`post_processing_scripts/`**: Scripts used to process the raw data and calculate averages (Throughput, SINR), handover counts, and plot REMs.
 
 ## How to Replicate
-1.   Copy the modified .cc example to your ns-3 scratch directory.
+1.   Copy the modified .cc example to your ns-3 `scratch/` directory.
 2.   Pick a simulation from the `simulation_scripts/` folder.
 3.   Review the parameters (and adjust what is needed) and execute the script.
-4.   Use the post-processing scripts to extract statistics from the aw data generated in the previous step.
+4.   Use the post-processing scripts to extract statistics from the raw data generated in the previous step.
 
 
